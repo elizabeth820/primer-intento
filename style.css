@@ -1,0 +1,49 @@
+/* selector universal */
+*{
+    font-family: Georgia, serif;
+}
+
+/* Selector de etiqueta
+Ocupa el nombre de la etiqueta y modifica todos los nombres iguales (ocurrencias)
+*/
+body {
+    background-color: palegoldenrod;
+}
+p{
+    color: darkblue;
+}
+/* Selector de clase */
+/* vamos a cambiar todos los elementos que tenan la misma clase */
+footer{
+    text-align: end;
+}
+.mascota {
+    border: 50px solid #000 ;
+    width:100px;
+    height:auto;
+}
+.texto-centrado{
+    text-align: center;
+}
+
+/* el inline block sirve para que tu contenido se pueda alinear con los demas y tener tamaño */
+.inline{
+    display: inline-block;
+}
+/* selector por ID */
+/* seleccioner un elemento unico, solo aplica aun elemento */
+#logo{
+    width: 200px;
+}
+
+/* al display inline no le puedes dar anch ni alto */
+#navegacion{
+    display: inline;
+}
+#navegacion li{
+    display: inline; 
+}
+/* selector combinado  aaqui podemos coombinar más de una opcion para filtrar etiquetas*/
+#contacto{
+    background-image: url(images.jpeg);
+}
